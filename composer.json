@@ -57,25 +57,10 @@
   },
   "autoload": {
     "files": [
-      "src/Setting/helpers.php",
-      "src/Alert/helpers.php",
-      "src/Log/helpers.php"
+      "src/Orchid/Support/helpers.php"
     ],
     "psr-4": {
-      "Orchid\\": "app/",
-      "Orchid\\Access\\": "src/Access/",
-      "Orchid\\Alert\\": "src/Alert/",
-      "Orchid\\Field\\": "src/Field/",
-      "Orchid\\Forms\\": "src/Forms/",
-      "Orchid\\Filters\\": "src/Filters/",
-      "Orchid\\Log\\": "src/Log/",
-      "Orchid\\Menu\\": "src/Menu/",
-      "Orchid\\Setting\\": "src/Setting/",
-      "Orchid\\Behaviors\\": "src/Behaviors/",
-      "Orchid\\Widget\\": "src/Widget/",
-      "Orchid\\Defender\\": "src/Defender/",
-      "Orchid\\Schema\\": "src/Schema/",
-      "Orchid\\Monitor\\": "src/Monitor/"
+      "Orchid\\": "src/Orchid/"
     }
   },
   "autoload-dev": {
