@@ -4,11 +4,11 @@ namespace Orchid\Tests\Settings;
 
 use Illuminate\Foundation\Testing\TestCase;
 use Orchid\Setting\Facades\Setting;
-use Orchid\Tests\CreatesApplicationOrchid;
+use Orchid\Tests\CreatesApplication;
 
 class SettingsTest extends TestCase
 {
-    use CreatesApplicationOrchid;
+    use CreatesApplication;
 
     /**
      * A basic test example.
